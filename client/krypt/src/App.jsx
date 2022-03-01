@@ -1,22 +1,22 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
-import { Navbar, Welcome, Footer, Services, Transactions } from './components';
+import { useState } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { Navbar, Welcome, Footer, Services, Transactions } from "./components";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="min-h-screen">
       <div className="gradient-bg-welcome">
         <Navbar />
-         <Welcome />
+        <Welcome />
       </div>
       <Services />
       <Transactions />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
